@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+    'config': path.resolve('src/sequelize/config', 'config_ingame.js'),
+    'models-path': path.resolve('src/sequelize/models', 'ingame'),
+    'seeders-path': path.resolve('src/sequelize/seeders', 'ingame'),
+    'migrations-path': path.resolve('src/sequelize/migrations', 'ingame')
+}
